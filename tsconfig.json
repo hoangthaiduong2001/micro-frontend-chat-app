@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./shared-models"
+    },
+    {
+      "path": "./server"
+    },
+    {
+      "path": "./client"
+    }
+  ]
+}
